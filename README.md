@@ -11,6 +11,7 @@ Contributing to TeensyMidi
 * Fork the project
 * Start a feature/bugfix branch
 * Commit and push until you are happy with your contribution
+* Initiate a [pull request](https://help.github.com/articles/using-pull-requests)
 
 Credits
 -------
