@@ -1,9 +1,9 @@
-//define how many pots are active up to number of available analog inputs
+// define how many pots are active up to number of available analog inputs
 #define analogInputs 6
-//make arrays for input values and lagged input values
+// make arrays for input values and lagged input values
 int inputAnalog[analogInputs];
 int iAlag[analogInputs];
-//make array of cc values
+// make array of cc values
 int ccValue[analogInputs];
 // index variable for loop
 int i;
