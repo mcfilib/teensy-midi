@@ -9,7 +9,7 @@ int ccValue[analogInputs];
 int i;
 
 void setup() {
-  //MIDI rate
+  // MIDI rate
   Serial.begin(31250);
 }
 
