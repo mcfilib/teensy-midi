@@ -19,7 +19,7 @@ void loop() {
   for (i=0;i<analogInputs;i++){
     // read current value at i-th input
     inputAnalog[i] = analogRead(i);
-    // if magnutude of diference is 8 or more...
+    // if magnitude of difference is 8 or more...
     if (abs(inputAnalog[i] - iAlag[i]) > 7){
       // calc the CC value based on the raw value
       ccValue[i] = inputAnalog[i]/8;
